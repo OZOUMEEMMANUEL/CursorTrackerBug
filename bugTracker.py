@@ -132,7 +132,7 @@ def draw_bug(surface, pos, heading, t, moving):
             # draw segments: upper leg (root->mid) and lower leg (mid->foot)
             pygame.draw.aaline(surface, BUG_DARK, (root_x, root_y), (mid_x, mid_y))
             pygame.draw.aaline(surface, BUG_DARK, (mid_x, mid_y), (foot_x, foot_y))
-            # little foot dot
+            # little foot dot for the spider bug
             pygame.draw.circle(surface, BUG_DARK, (int(foot_x), int(foot_y)), 2)
 
 
